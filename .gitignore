@@ -1,0 +1,43 @@
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Editors / IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- PowerShell ---
+# Local secrets / profiles
+*secrets*
+*.pfx
+*.pem
+*.key
+*.cer
+*.crt
+*.p12
+*.snk
+
+# PowerShell module build artifacts
+*.psm1.old
+*.psd1.old
+
+# --- Logs / outputs (commit sanitized exports only) ---
+*.log
+*.etl
+*.evtx
+exports/_scratch/
+exports/**/raw/
+data/**/raw/
+
+# --- Terraform/Bicep (if you add later) ---
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# --- Node/Build (if you add later) ---
+node_modules/
+dist/
+build/
