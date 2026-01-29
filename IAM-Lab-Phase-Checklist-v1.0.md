@@ -15,9 +15,9 @@ Target State: `corp.jpw.lab` (+ `east`, `west`) and `ats.jpw.lab` syncing to Ent
 # PHASE 0 — Prereqs & Naming (M0)
 
 ## P0.1 Lab Inventory & Access
-- [ ] Lab inventory recorded in `docs/00-overview/lab-inventory.md`
-- [ ] Admin access method validated (RDP/SSH) and restricted appropriately
-- [ ] Time sync plan documented (host + Windows guests)
+- [x] Lab inventory recorded in `docs/00-overview/lab-inventory.md`
+- [x] Admin access method validated (RDP/SSH) and restricted appropriately
+- [x] Time sync plan documented (host + Windows guests)
 - [x] Evidence: VM/host inventory screenshot saved
 - [x] Evidence: `kvm-ok` + `libvirtd` status screenshot saved
 - [x] Evidence: JPW-ADM-01 connectivity proof (sanitized) saved
@@ -38,7 +38,7 @@ Target State: `corp.jpw.lab` (+ `east`, `west`) and `ats.jpw.lab` syncing to Ent
 - [ ] Evidence: logging/retention decision screenshot saved
 
 ### Phase 0 Exit Criteria (M0)
-- [ ] Naming standard is complete and consistent with target state
+- [x] Naming standard is complete and consistent with target state
 - [ ] Baseline security decisions documented
 - [ ] Evidence pack contains required Phase-0 screenshots (sanitized)
 - [ ] No secrets/public IPs/MACs committed to repo
